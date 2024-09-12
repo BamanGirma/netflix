@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import './nav.css'
-import netflixLogo from './images/netflixLogo.png'
+import netflixLogo from '../images/netflixLogo.png'
 function Nav() {
     const [show,handleShow] = useState(false);
     useEffect(() =>{
